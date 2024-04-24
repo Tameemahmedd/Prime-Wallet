@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="user_service" />
+        <module name="jbdl_wallet_libraries" />
+        <module name="wallet_service" />
+        <module name="notification_service" />
+        <module name="transaction_service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AnnotationImpl" target="17" />
+      <module name="ApacheKafkaDemoConsumer" target="17" />
+      <module name="demo" target="17" />
+      <module name="SpringBootOAuth" target="17" />
+      <module name="SpringMVCPractice" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AnnotationImpl" options="-parameters" />
+      <module name="ApacheKafkaDemoConsumer" options="-parameters" />
+      <module name="SpringBootOAuth" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="jbdl_wallet_libraries" options="-parameters" />
+      <module name="notification_service" options="-parameters" />
+      <module name="transaction_service" options="-parameters" />
+      <module name="user_service" options="-parameters" />
+      <module name="wallet_service" options="-parameters" />
+    </option>
+  </component>
+</project>
